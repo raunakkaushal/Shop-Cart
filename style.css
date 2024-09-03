@@ -1,0 +1,89 @@
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.card-divider {
+    height: 3rem;
+    background-color: white;
+}
+.active{
+    color: tomato;
+}
+.nav-link:hover{
+    color: tomato;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 1rem;
+}
+.btn-outline-warning {
+    border-color: #ada8a2;
+    color: #797979;
+}
+.fashion{
+    margin: auto;
+    font-size: 38px;
+    width:min-content;
+    border-bottom: 3px solid orange;
+}
+.card{
+    height: min-content;
+    font-size:.8rem;
+    font-weight: bold;
+}
+.card:hover{
+    transform: .5s;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+}
+.card img{
+    width: 95%;
+    height: 10rem;
+    margin: 5px 5px 5px 5px;
+    border-radius: 4px;
+
+}
+
+.redirect-box {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 9999;
+    transition: all 300ms ease-in-out;
+}
+.redirect-box:hover {
+    transform: scale(1.1);
+}
+
+.redirect {
+    all: unset;
+    position: relative;
+}
+
+.toolTip {
+    background-color: rgba(241, 252, 95, 0.712);
+    padding: 0.5rem;
+    position: absolute;
+    top: -7rem;
+    display: none;
+    right: 2px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.redirect:hover>.toolTip {
+    transition: all 300ms ease-in-out;
+    display: block;
+}
